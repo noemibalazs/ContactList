@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="116dp">
+
+    <com.noemi.android.contactlist.utils.ImagePlaceHolder
+        android:id="@+id/contact_image_initials"
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="42dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="42dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/contact_image_initials"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/contact_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/playfairdisplaybolditalic"
+                android:textColor="@color/lack"
+                android:textSize="16sp"
+                tools:text="Boss" />
+
+            <TextView
+                android:id="@+id/contact_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:fontFamily="@font/playfairdisplaybolditalic"
+                android:textColor="@color/grey"
+                android:textSize="14sp"
+                tools:text="boss@gmail.com" />
+
+            <TextView
+                android:id="@+id/contact_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:fontFamily="@font/playfairdisplaybolditalic"
+                android:textColor="@color/grey"
+                android:textSize="14sp"
+                tools:text="+40770124586" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/contact_edit_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:paddingEnd="8dp"
+            android:paddingStart="8dp"
+            android:src="@drawable/btn_menu_pressed"
+            android:tint="@color/colorAccent" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

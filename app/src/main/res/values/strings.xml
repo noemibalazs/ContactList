@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Angel List</string>
+    <string name="welcome_text">Welcome to the contact list!\nPlease add you contacts to the list!</string>
+    <string name="contact_delete">Delete</string>
+    <string name="contact_dismiss">Cancel</string>
+    <string name="pop_up_title">Delete contact</string>
+    <string name="pop_up_details">Are you sure you want to delete this contact?</string>
+    <string name="pop_up_delete_title">Delete contact</string>
+    <string name="pop_up_edit_title">Edit contact details</string>
+    <string name="add_contact">Add contact</string>
+    <string name="edit_contact">Edit contact details</string>
+    <string name="edit_name_hint">Full name</string>
+    <string name="edit_email_hint">Email address</string>
+    <string name="edit_phone_hint">Phone number</string>
+    <string name="button_save">Save</string>
+    <string name="error_message">This field cannot be empty</string>
+    <string name="intent_title">Get a picture</string>
+</resources>
